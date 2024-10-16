@@ -1,9 +1,12 @@
 import React from "react";
+import WeatherApp from "./Components/WeatherApp";
 
 const App = () => {
   return (
     <>
-      <div>App</div>
+      <div>
+        <WeatherApp />
+      </div>
     </>
   );
 };
